@@ -1,0 +1,47 @@
+.container{
+    width : 40vw;
+    height: 12vh;
+    margin-top:40vh;
+    margin-left : 30vw;
+    transform-style: preserve-3d;
+}
+.container span{
+    font-size: 5vw;
+}
+.time{
+    width:5vw;
+    height:10vh;
+    margin-left :1%;
+    display: inline-block;   
+    background-color: black;
+    color : white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 4vw;
+    text-align: center;
+}
+.time.flip{
+    transform-origin: 0 -2.5vh;
+    transform : rotateX(360deg);
+    color : black;
+    opacity: -100;
+    transition : 0.9s;
+}
+
+.frontTime{
+    width:40vw;
+}
+.backTime{
+    width:40vw;
+    position:absolute;
+}
+.time2{ 
+    width:5vw;
+    height:10vh;
+    margin-left :1%;
+    display: inline-block;   
+    background-color: black;
+    color : white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 4vw;
+    text-align: center;
+}
